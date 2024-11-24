@@ -3,7 +3,6 @@
 ## Overview
 
 A native MacOS service to periodically synchronize AirTag location with Traccar server.
-
 The data is uploaded for all linked tags while the computer is awake.
 
 ## Installation
@@ -16,7 +15,6 @@ If something is not working, check logs using the following command:
 - `log show --predicate 'subsystem == "org.traccar.sync"' --info`
 
 ## Configuration
-
 Default configuration:
 
 - Server URL is set to the main demo server
